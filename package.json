@@ -21,10 +21,13 @@
     "@storybook/manager-webpack4": "^6.5.12",
     "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.2.5"
+    "babel-loader": "^8.2.5",
+    "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "build-storybook": "build-storybook -s public",
+    "build:css": "npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind.css",
+    "watch:css": "npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind.css --watch"
   }
 }

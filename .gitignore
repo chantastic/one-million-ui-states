@@ -2,3 +2,4 @@ node_modules
  
 public/tailwind.css
 .gitignore
+storybook-static

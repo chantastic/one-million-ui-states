@@ -1,0 +1,19 @@
+[data-color-scheme="light"][data-contrast="less"] {
+  background-color: #f3f3f3;
+  --avatar--border-color: #ddd;
+}
+
+[data-color-scheme="light"][data-contrast="more"] {
+  background-color: #fff;
+  --avatar--border-color: #000;
+}
+
+[data-color-scheme="dark"][data-contrast="less"] {
+  background-color: #222;
+  --avatar--border-color: #666;
+}
+
+[data-color-scheme="dark"][data-contrast="more"] {
+  background-color: #000;
+  --avatar--border-color: #fff;
+}

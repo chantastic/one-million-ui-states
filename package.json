@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@storybook/test-runner": "^0.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "webpack": "^4.46.0"
@@ -32,6 +33,7 @@
     "build:storybook": "build-storybook -s public",
     "watch:storybook": "start-storybook -p 6006 -s ./public",
     "build:tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind.css",
-    "watch:tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind.css --watch"
+    "watch:tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/tailwind.css --watch",
+    "test-storybook": "test-storybook"
   }
 }

@@ -33,17 +33,3 @@ export const Small = {
 //     ...Primary.args,
 //   },
 // };
-
-// 📝 Extreme casing: demonstrating extreme and non-ideal cases
-// export const LongCTAOnMobile = {
-//   args: {
-//     primary: true,
-//     label:
-//       "The compliance team doesn't care how ugly this is. All this text must be present — legally…",
-//   },
-//   parameters: {
-//     viewport: {
-//       defaultViewport: "mobile1",
-//     },
-//   },
-// };

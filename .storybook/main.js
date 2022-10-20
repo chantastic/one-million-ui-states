@@ -6,7 +6,10 @@ module.exports = {
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
+    "@storybook/addon-interactions",
+    // 📝 Bring accessibility checks right into documentation
+    //    Installed once. Available to everyone.
+    // "@storybook/addon-a11y"
   ],
   "framework": "@storybook/react"
 }

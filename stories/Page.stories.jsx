@@ -9,6 +9,8 @@ export default {
   component: Page,
   parameters: {
     layout: "fullscreen",
+    // TODO: Set the viewports in Chromatic at a component level.
+    // chromatic: { viewports: [640, 768, 1024, 1280, 1536] },
   },
 };
 

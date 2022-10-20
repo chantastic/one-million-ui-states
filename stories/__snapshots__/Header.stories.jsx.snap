@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example/Header LoggedIn smoke-test 1`] = `
+Object {
+  "checked": undefined,
+  "children": Array [
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "level": 1,
+      "name": "Acme",
+      "pressed": undefined,
+      "role": "heading",
+      "value": undefined,
+    },
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Welcome,",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Jane Doe",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "!",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Log out",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+  ],
+  "name": "example-header--logged-in",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;

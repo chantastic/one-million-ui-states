@@ -11,5 +11,9 @@
 //         html: true,
 //       },
 //     });
+
+//     // 📝 probably the only acceptable use of Jest Snapshots
+//     // const accessibilityTree = await page.accessibility.snapshot();
+//     // expect(accessibilityTree).toMatchSnapshot();
 //   },
 // };

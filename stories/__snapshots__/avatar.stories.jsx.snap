@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example/Avatar Default smoke-test 1`] = `
+Object {
+  "checked": undefined,
+  "children": Array [
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Aang, the last airbender",
+      "pressed": undefined,
+      "role": "img",
+      "value": undefined,
+    },
+  ],
+  "name": "example-avatar--default",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;
+
+exports[`Example/Avatar DefaultWithControls smoke-test 1`] = `
+Object {
+  "checked": undefined,
+  "children": Array [
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Aang, the last airbender",
+      "pressed": undefined,
+      "role": "img",
+      "value": undefined,
+    },
+  ],
+  "name": "example-avatar--default-with-controls",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;
+
+exports[`Example/Avatar ThemeGrid smoke-test 1`] = `
+Object {
+  "checked": undefined,
+  "children": Array [
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Aang, the last airbender",
+      "pressed": undefined,
+      "role": "img",
+      "value": undefined,
+    },
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Aang, the last airbender",
+      "pressed": undefined,
+      "role": "img",
+      "value": undefined,
+    },
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Aang, the last airbender",
+      "pressed": undefined,
+      "role": "img",
+      "value": undefined,
+    },
+    Object {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Aang, the last airbender",
+      "pressed": undefined,
+      "role": "img",
+      "value": undefined,
+    },
+  ],
+  "name": "example-avatar--theme-grid",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;

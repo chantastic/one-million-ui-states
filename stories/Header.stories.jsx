@@ -35,6 +35,6 @@ export const LoggedInWithLongNameOnMobile = {
     viewport: {
       defaultViewport: "mobile1",
     },
-    chromatic: { viewports: [640] },
+    chromatic: { viewports: [480] },
   },
 };

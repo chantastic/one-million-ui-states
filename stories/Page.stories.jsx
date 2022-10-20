@@ -1,7 +1,7 @@
 import * as React from "react";
 import { within, userEvent } from "@storybook/testing-library";
 // TODO: 8 Use jest assertions!
-// import { expect } from "@storybook/jest";
+import { expect } from "@storybook/jest";
 
 import { Page } from "./Page";
 
@@ -12,7 +12,7 @@ export default {
     layout: "fullscreen",
     // TODO: 13 Set the viewports in Chromatic at a component level.
     //          For composed views and templates, we want to see them at all viewports.
-    // chromatic: { viewports: [640, 768, 1024, 1280, 1536] },
+    chromatic: { viewports: [640, 768, 1024, 1280, 1536] },
   },
 };
 
@@ -30,24 +30,24 @@ export const LoggedIn = {
     const loginButton = await canvas.getByRole("button", { name: /Log in/i });
     await userEvent.click(loginButton);
 
-    // expect(canvas.getByText(/Jane Doe/));
+    expect(canvas.getByText(/Jane Doe/));
   },
 };
 
 // TODO: 7 Compose play functions with others
-// export const LogInThenLogOut = {
-//   render: LoggedIn.render, // re-uses LoggedIn.render method
-//   play: async ({ canvasElement }) => {
-//     await LoggedIn.play({ canvasElement }); // re-uses LoggedIn.play function
+export const LogInThenLogOut = {
+  render: LoggedIn.render, // re-uses LoggedIn.render method
+  play: async ({ canvasElement }) => {
+    await LoggedIn.play({ canvasElement }); // re-uses LoggedIn.play function
 
-//     // performs an additional interaction
-//     const canvas = within(canvasElement);
-//     const loginButton = await canvas.getByRole("button", { name: /Log out/i });
-//     await userEvent.click(loginButton);
+    // performs an additional interaction
+    const canvas = within(canvasElement);
+    const loginButton = await canvas.getByRole("button", { name: /Log out/i });
+    await userEvent.click(loginButton);
 
-//     // expect(canvas.getByText(/Log in/));
-//   },
-// };
+    expect(canvas.getByText(/Log in/));
+  },
+};
 
 // TODO: 9 Rewards strong component isolation
 //         - Page component is a pure function of props

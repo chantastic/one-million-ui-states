@@ -13,6 +13,8 @@
 - [Story rendering](https://storybook.js.org/docs/react/configure/story-rendering)
 - [Play functions](https://storybook.js.org/docs/react/writing-stories/play-function)
 - [Parameters](https://storybook.js.org/docs/react/writing-stories/parameters)
+- [UI Test | Chromatic](https://www.chromatic.com/docs/test)
+- [UI Review | Chromatic](https://www.chromatic.com/docs/review)
 
 ### Addons
 

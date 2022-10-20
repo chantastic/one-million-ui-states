@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@storybook/test-runner": "^0.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "webpack": "^4.46.0"
@@ -22,10 +21,13 @@
     "@storybook/jest": "^0.0.10",
     "@storybook/manager-webpack4": "^6.5.12",
     "@storybook/react": "^6.5.12",
+    "@storybook/test-runner": "^0.9.0",
     "@storybook/testing-library": "^0.0.13",
+    "axe-playwright": "^1.1.11",
     "babel-loader": "^8.2.5",
     "chromatic": "^6.10.4",
     "concurrently": "^7.4.0",
+    "jest": "^29.2.1",
     "tailwindcss": "^3.1.8"
   },
   "scripts": {

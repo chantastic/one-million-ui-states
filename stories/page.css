@@ -1,5 +1,5 @@
 section {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   padding: 48px 20px;
@@ -24,6 +24,7 @@ section p {
 section a {
   text-decoration: none;
   color: #1ea7fd;
+  /* color: #027ac5; */
 }
 
 section ul {
@@ -43,6 +44,7 @@ section .tip {
   font-weight: 700;
   background: #e7fdd8;
   color: #66bf3c;
+  /* color: #427c27; */
   padding: 4px 12px;
   margin-right: 10px;
   vertical-align: top;

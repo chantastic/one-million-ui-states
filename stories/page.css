@@ -24,6 +24,7 @@ section p {
 section a {
   text-decoration: none;
   color: #1ea7fd;
+  /* TODO: 11-2 fix color contrast issue */
   /* color: #027ac5; */
 }
 
@@ -44,6 +45,7 @@ section .tip {
   font-weight: 700;
   background: #e7fdd8;
   color: #66bf3c;
+  /* TODO: 11-3 fix color contrast issue */
   /* color: #427c27; */
   padding: 4px 12px;
   margin-right: 10px;

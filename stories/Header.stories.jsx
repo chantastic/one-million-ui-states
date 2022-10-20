@@ -18,8 +18,8 @@ export const LoggedIn = {
   },
 };
 
-// 📝 Because these are just objects, we can compose stories from other stories
-// export const LoggedInLongName = {
+// TODO: 4 Because we're documenting isolated components, it's trivial to set up extreme cases
+// export const LoggedInWithLongName = {
 //   args: {
 //     user: {
 //       name: "John Jacob Jingleheimer Schmidt",
@@ -27,9 +27,10 @@ export const LoggedIn = {
 //   },
 // };
 
-// 📝 Extreme casing: demonstrating extreme and non-ideal cases
-// export const LoggedInLongNameOnMobile = {
-//   args: LoggedInLongName.args,
+// TODO: 5 Using paramaters (in addition to args), we can set up full UI cases.
+//         Like the combination of a long name in small viewport.
+// export const LoggedInWithLongNameOnMobile = {
+//   args: LoggedInWithLongName.args,
 //   parameters: {
 //     viewport: {
 //       defaultViewport: "mobile1",

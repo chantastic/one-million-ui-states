@@ -10,7 +10,8 @@ export const parameters = {
   },
 };
 
-// TODO: Add global types for color scheme and contrast
+// TODO: 14 Add global types for color scheme
+//          (show url to demonstrate globals)
 // export const globalTypes = {
 //   scheme: {
 //     name: "Scheme",
@@ -23,20 +24,21 @@ export const parameters = {
 //       dynamicTitle: true,
 //     },
 //   },
-//   contrast: {
-//     name: "Contrast",
-//     description: "Select less or more contrast",
-//     defaultValue: "less",
-//     toolbar: {
-//       icon: "contrast",
-//       items: ["less", "more", "both"],
-//       showName: true,
-//       dynamicTitle: true,
-//     },
-//   },
+//   // TODO: 15 Add global types for color contrast
+//   // contrast: {
+//   //   name: "Contrast",
+//   //   description: "Select less or more contrast",
+//   //   defaultValue: "less",
+//   //   toolbar: {
+//   //     icon: "contrast",
+//   //     items: ["less", "more", "both"],
+//   //     showName: true,
+//   //     dynamicTitle: true,
+//   //   },
+//   // },
 // };
 
-// TODO: Add decorator to display various types
+// TODO: 16 Add global decorator to display various themes
 // export const decorators = [withSelectableTheme];
 
 // function withSelectableTheme(Story, context) {

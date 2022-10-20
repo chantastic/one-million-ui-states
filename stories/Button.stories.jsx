@@ -1,3 +1,4 @@
+// TODO: 1. Anatomy of a story
 import { Button } from "./Button";
 
 export default {
@@ -5,6 +6,9 @@ export default {
   component: Button,
   args: { primary: false, label: "Button" },
 };
+
+// TODO: 2. Stories can be JSX. Just like you'd use them in an app
+// export const Default = <Button label="Sad Button" primary={true} />;
 
 export const Primary = {
   args: {
@@ -26,7 +30,7 @@ export const Small = {
   },
 };
 
-// 📝 Because these are just objects, we can compose stories from other stories
+// TODO: 3 Because CSF 3 uses objects, stories are easy to compose from other stories
 // export const LargePrimary = {
 //   args: {
 //     ...Large.args,

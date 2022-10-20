@@ -1,5 +1,5 @@
 .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
   border-radius: 3em;
@@ -10,7 +10,8 @@
 .storybook-button--primary {
   color: white;
   background-color: #1ea7fd;
-  /* background-color: #027AC5; */
+  /* TODO: 11-1 fix color contrast issue */
+  /* background-color: #027ac5; */
 }
 .storybook-button--secondary {
   color: #333;

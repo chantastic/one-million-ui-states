@@ -1,3 +1,4 @@
+// TODO: 11 Automate accessibility checks with
 // const { injectAxe, checkA11y } = require("axe-playwright");
 
 // module.exports = {
@@ -12,7 +13,7 @@
 //       },
 //     });
 
-//     // 📝 probably the only acceptable use of Jest Snapshots
+//     // TODO: 12 Capture snapshots of the accessibility tree (probably the only acceptable use of Jest Snapshots)
 //     // const accessibilityTree = await page.accessibility.snapshot();
 //     // expect(accessibilityTree).toMatchSnapshot();
 //   },

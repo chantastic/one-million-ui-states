@@ -1,5 +1,6 @@
 import * as React from "react";
 import { within, userEvent } from "@storybook/testing-library";
+// TODO: 8 Use jest assertions!
 // import { expect } from "@storybook/jest";
 
 import { Page } from "./Page";
@@ -9,7 +10,8 @@ export default {
   component: Page,
   parameters: {
     layout: "fullscreen",
-    // TODO: Set the viewports in Chromatic at a component level.
+    // TODO: 13 Set the viewports in Chromatic at a component level.
+    //          For composed views and templates, we want to see them at all viewports.
     // chromatic: { viewports: [640, 768, 1024, 1280, 1536] },
   },
 };
@@ -18,6 +20,11 @@ export const LoggedOut = {};
 
 export const LoggedIn = {
   render: renderWithMockedData,
+  // TODO: 6 Anatomy of Play functions (show story first)
+  //         - async funtion
+  //         - testing-library event API
+  //         - actions performed on stories
+  //         - actions logged in Interactions panel
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     const loginButton = await canvas.getByRole("button", { name: /Log in/i });
@@ -27,12 +34,13 @@ export const LoggedIn = {
   },
 };
 
-// 📝 Compose play functions together
+// TODO: 7 Compose play functions with others
 // export const LogInThenLogOut = {
-//   render: LoggedIn.render,
+//   render: LoggedIn.render, // re-uses LoggedIn.render method
 //   play: async ({ canvasElement }) => {
-//     await LoggedIn.play({ canvasElement });
+//     await LoggedIn.play({ canvasElement }); // re-uses LoggedIn.play function
 
+//     // performs an additional interaction
 //     const canvas = within(canvasElement);
 //     const loginButton = await canvas.getByRole("button", { name: /Log out/i });
 //     await userEvent.click(loginButton);
@@ -41,8 +49,9 @@ export const LoggedIn = {
 //   },
 // };
 
-// 📝 rewards strong component isolation
-// 🔗 addons available for [MSW](https://github.com/mswjs/msw-storybook-addon)
+// TODO: 9 Rewards strong component isolation
+//         - Page component is a pure function of props
+//         - We provide a small mock to test the interface and interactions
 function renderWithMockedData() {
   function MockUser({ children }) {
     const userState = React.useState(null);
@@ -63,3 +72,6 @@ function renderWithMockedData() {
     </MockUser>
   );
 }
+
+// TODO: 10 The test-runner runs headless chromium in jest
+//          requires @storybook/test-runner and addition of "test-storybook script"

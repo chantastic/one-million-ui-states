@@ -23,10 +23,3 @@ Avatar.propTypes = {
    */
   alt: PropTypes.string.isRequired,
 };
-
-// Avatar.defaultProps = {
-//   backgroundColor: null,
-//   primary: false,
-//   size: "medium",
-//   onClick: undefined,
-// };

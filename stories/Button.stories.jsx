@@ -31,9 +31,9 @@ export const Small = {
 };
 
 // TODO: 3 Because CSF 3 uses objects, stories are easy to compose from other stories
-// export const LargePrimary = {
-//   args: {
-//     ...Large.args,
-//     ...Primary.args,
-//   },
-// };
+export const LargePrimary = {
+  args: {
+    ...Large.args,
+    ...Primary.args,
+  },
+};

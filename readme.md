@@ -12,6 +12,7 @@
 - [Decorators](https://storybook.js.org/docs/react/writing-stories/decorators)
 - [Story rendering](https://storybook.js.org/docs/react/configure/story-rendering)
 - [Play functions](https://storybook.js.org/docs/react/writing-stories/play-function)
+- [Parameters](https://storybook.js.org/docs/react/writing-stories/parameters)
 
 ### Addons
 

@@ -48,12 +48,7 @@ function withColorScheme(Story, context) {
   }
 
   return (
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "1fr 1fr",
-      }}
-    >
+    <div>
       <Flex className="color-scheme--light">
         <Story />
       </Flex>

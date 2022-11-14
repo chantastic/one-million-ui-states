@@ -1,4 +1,4 @@
-[data-avatar] {
+.avatar {
   display: inline-block;
   border-color: var(--avatar--border-color);
   border-style: solid;

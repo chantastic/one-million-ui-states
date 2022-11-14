@@ -1,0 +1,9 @@
+.color-scheme--light {
+  background-color: #f3f3f3;
+  --avatar--border-color: #ddd;
+}
+
+.color-scheme--dark {
+  background-color: #222;
+  --avatar--border-color: #666;
+}

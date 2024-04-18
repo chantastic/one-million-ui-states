@@ -5,14 +5,14 @@ import { Button } from "./Button";
 Lesson 1: Anatomy of a Story
 
 Let's learn about stories by commenting out and re-writing sections of this file.
-- Delete named exports (stories)
-- Delete args (story args)
-- Delete component args
-- Delete component argsTypes
-- Delete autodocs tag
-- Delete parameters
-- Delete title meta
-- Delete component meta
+- Remove named exports (stories)
+- Remove args (story args)
+- Remove component args
+- Remove component argsTypes
+- Remove autodocs tag
+- Remove parameters
+- Remove title meta
+- Remove component meta
 - Write MVP story
 */
 

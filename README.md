@@ -5,3 +5,4 @@
 [Lesson 3: Document extreme cases](./src/stories/Header.stories.js#L29)
 [Lesson 4: Set story viewport](./src/stories/Header.stories.js#L54)
 [Lesson 5: Anatomy of a play function](./src/stories/Page.stories.js#L16)
+[Lesson 6: Compose play functions](./src/stories/Page.stories.js#L41)

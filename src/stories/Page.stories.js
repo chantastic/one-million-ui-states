@@ -36,3 +36,25 @@ export const LoggedIn = {
     await expect(logoutButton).toBeInTheDocument();
   },
 };
+
+/*
+Lesson 6: Compose play functions
+
+Play functions can also be composed from other stories.
+Call play functions from their stories.
+
+Uncomment (or rewrite) the story below.
+Note that it calls the play function from the LoggedIn story.
+*/
+
+// export const LogInThenLogOut = {
+//   play: async (context) => {
+//     await LoggedIn.play(context);
+
+//     const canvas = within(context.canvasElement);
+//     const loginButton = await canvas.getByRole("button", { name: /Log out/i });
+//     await userEvent.click(loginButton);
+
+//     await expect(canvas.getByText(/Log in/));
+//   },
+// };

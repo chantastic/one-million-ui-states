@@ -57,16 +57,15 @@ export const Small = {
 };
 
 /*
-Lesson 1: Anatomy of a Story
+Lesson 2: Compose stories
 
-Let's learn about stories by commenting out and re-writing sections of this file.
-- Delete named exports (stories)
-- Delete args (story args)
-- Delete component args
-- Delete component argsTypes
-- Delete autodocs tag
-- Delete parameters
-- Delete title meta
-- Delete component meta
-- Write MVP story
+Stories (using SCF object syntax) can compose args from other stories.
+Uncomment (or re-write) the story below to make a new story from others.
 */
+
+// export const LargePrimary = {
+//   args: {
+//     ...Large.args,
+//     ...Primary.args,
+//   },
+// };

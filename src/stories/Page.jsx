@@ -3,6 +3,18 @@ import React from 'react';
 import { Header } from './Header';
 import './page.css';
 
+/*
+Lesson 7:
+
+Testing at the component level encourages strong composition.
+
+Here we can provide tiny mocks and stubs to to ensure the behavior and limit complex environment setup.
+
+Add this expectation to Page's LoggedIn story:
+await expect(canvas.getByText('Jane Doe')).toBeInTheDocument();
+
+*/
+
 export const Page = () => {
   const [user, setUser] = React.useState();
 

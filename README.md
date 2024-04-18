@@ -6,3 +6,4 @@
 [Lesson 4: Set story viewport](./src/stories/Header.stories.js#L54)
 [Lesson 5: Anatomy of a play function](./src/stories/Page.stories.js#L16)
 [Lesson 6: Compose play functions](./src/stories/Page.stories.js#L41)
+[Lesson 7: Stories eliminate complex setup](./src/stories/Page.jsx#L7)

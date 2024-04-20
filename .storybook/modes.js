@@ -7,7 +7,7 @@ Uncomment (or write) the code below to define modes.
 */
 
 export const viewportModes = {
-  small: { name: "Small", styles: { width: "640px", height: "900px" } },
-  medium: { name: "Medium", styles: { width: "768px", height: "900px" } },
-  large: { name: "Large", styles: { width: "1024px", height: "900px" } },
+  small: { name: "Small", viewport: { width: "640px" } },
+  medium: { name: "Medium", viewport: { width: "768px" } },
+  large: { name: "Large", viewport: { width: "1024px" } },
 };

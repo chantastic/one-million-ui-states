@@ -15,5 +15,11 @@
   - `npm install axe-playwright`
   - [fix button.css](./src/stories/button.css#L12)
   - [fix page anchor](./src/stories/page.css#L27)
-
-[Lesson 10: Capture snapshots of the accessibility tree (probably the only acceptable use of Jest Snapshots)](./.storybook/test-runner.js#L32)
+- [Lesson 10: Capture snapshots of the accessibility tree (probably the only acceptable use of Jest Snapshots)](./.storybook/test-runner.js#L32)
+- [Lesson 11: Integrate visual tests with Chromatic]
+  - Log into chromatic.com
+  - Add project and connect with GitHub
+  - `npm install --save-dev chromatic`
+  - `npx chromatic --project-token=<project_token>`
+  - Go to project
+  - Explore UI features

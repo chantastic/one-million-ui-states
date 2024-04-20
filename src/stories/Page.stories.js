@@ -1,5 +1,5 @@
 import { within, userEvent, expect } from "@storybook/test";
-import { viewportModes } from "../../.storybook/modes";
+// import { viewportModes } from "../../.storybook/modes";
 
 import { Page } from "./Page";
 
@@ -8,12 +8,13 @@ export default {
   component: Page,
   parameters: {
     layout: "fullscreen",
-    chromatic: {
-      modes: {
-        mobile: viewportModes["small"],
-        desktop: viewportModes["large"],
-      },
-    },
+    // LESSON 13
+    // chromatic: {
+    //   modes: {
+    //     mobile: viewportModes["small"],
+    //     desktop: viewportModes["large"],
+    //   },
+    // },
   },
 };
 
@@ -54,14 +55,14 @@ Uncomment (or rewrite) the story below.
 Note that it calls the play function from the LoggedIn story.
 */
 
-// export const LogInThenLogOut = {
-//   play: async (context) => {
-//     await LoggedIn.play(context);
+export const LogInThenLogOut = {
+  play: async (context) => {
+    await LoggedIn.play(context);
 
-//     const canvas = within(context.canvasElement);
-//     const loginButton = await canvas.getByRole("button", { name: /Log out/i });
-//     await userEvent.click(loginButton);
+    const canvas = within(context.canvasElement);
+    const loginButton = await canvas.getByRole("button", { name: /Log out/i });
+    await userEvent.click(loginButton);
 
-//     await expect(canvas.getByText(/Log in/));
-//   },
-// };
+    await expect(canvas.getByText(/Log in/));
+  },
+};

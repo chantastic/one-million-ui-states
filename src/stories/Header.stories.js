@@ -34,21 +34,21 @@ They're cheap to create, making it easy to capture extreme cases.
 Uncomment (or re-write) the code below to document both short and long extreme cases.
 */
 
-// export const LoggedInWithShortName = {
-//   args: {
-//     user: {
-//       name: "Jo",
-//     },
-//   },
-// };
+export const LoggedInWithShortName = {
+  args: {
+    user: {
+      name: "Jo",
+    },
+  },
+};
 
-// export const LoggedInWithLongName = {
-//   args: {
-//     user: {
-//       name: "John Jacob Jingleheimer Schmidt",
-//     },
-//   },
-// };
+export const LoggedInWithLongName = {
+  args: {
+    user: {
+      name: "John Jacob Jingleheimer Schmidt",
+    },
+  },
+};
 
 /*
 Lesson 4: Set story viewport
@@ -60,14 +60,14 @@ Uncomment (or rewrite) the story below to see how long names render on mobile.
 Note that this requires args from the `LoggedInWithLongName` story.
 */
 
-// export const LoggedInWithLongNameOnMobile = {
-//   args: LoggedInWithLongName.args,
-//   parameters: {
-//     viewport: {
-//       defaultViewport: "mobile1",
-//     },
-//   },
-// };
+export const LoggedInWithLongNameOnMobile = {
+  args: LoggedInWithLongName.args,
+  parameters: {
+    viewport: {
+      defaultViewport: "mobile1",
+    },
+  },
+};
 
 /*
 NOTE:

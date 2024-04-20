@@ -11,14 +11,14 @@
 - [Lesson 2: Compose stories](./src/stories/Button.stories.js#L60)
 - [Lesson 3: Document extreme cases](./src/stories/Header.stories.js#L29)
 - [Lesson 4: Set story viewport](./src/stories/Header.stories.js#L54)
-- [Lesson 5: Anatomy of a play function](./src/stories/Page.stories.js#L16)
-- [Lesson 6: Compose play functions](./src/stories/Page.stories.js#L41)
+- [Lesson 5: Anatomy of a play function](./src/stories/Page.stories.js#L24)
+- [Lesson 6: Compose play functions](./src/stories/Page.stories.js#L49)
 - [Lesson 7: Stories eliminate complex setup](./src/stories/Page.jsx#L7)
 - Lesson 8: Run tests headlessly
   - `npm install @storybook/test-runner --save-dev`
   - `npx playwright install`
   - `npx exec test-storybook`
-- [Lesson 9: Add accessibility tests with ax-eplaywright](./.storybook/test-runner.js#L2)
+- [Lesson 9: Add accessibility tests with axe-eplaywright](./.storybook/test-runner.js#L2)
   - `npm install axe-playwright`
   - [fix button.css](./src/stories/button.css#L12)
   - [fix page anchor](./src/stories/page.css#L27)
@@ -34,13 +34,5 @@
   - Add secret
   - Add GitHub workflow file
 - [Lesson 13: Snapshot multiple viewports in Chromatic with modes](./.storybook/modes.js)
-  - Import viewportModes into Page
-
-```js
-    chromatic: {
-      modes: {
-        mobile: viewportModes["small"],
-        desktop: viewportModes["large"],
-      },
-    },
-```
+- [Lesson 13: Snapshot multiple viewports in Chromatic with modes](./.storybook/modes.js)
+  - Import viewportModes into [Page.stories.jsx](./src/stories/Page.stories.js#L11)

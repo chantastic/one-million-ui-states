@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example/Header LoggedIn smoke-test 1`] = `
+{
+  "checked": undefined,
+  "children": [
+    {
+      "checked": undefined,
+      "children": undefined,
+      "level": 1,
+      "name": "Acme",
+      "pressed": undefined,
+      "role": "heading",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Welcome, ",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Jane Doe",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "!",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Log out",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+  ],
+  "name": "example-header--logged-in",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;
+
+exports[`Example/Header LoggedInWithLongName smoke-test 1`] = `
+{
+  "checked": undefined,
+  "children": [
+    {
+      "checked": undefined,
+      "children": undefined,
+      "level": 1,
+      "name": "Acme",
+      "pressed": undefined,
+      "role": "heading",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Welcome, ",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "John Jacob Jingleheimer Schmidt",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "!",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Log out",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+  ],
+  "name": "example-header--logged-in-with-long-name",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;
+
+exports[`Example/Header LoggedInWithLongNameOnMobile smoke-test 1`] = `
+{
+  "checked": undefined,
+  "children": [
+    {
+      "checked": undefined,
+      "children": undefined,
+      "level": 1,
+      "name": "Acme",
+      "pressed": undefined,
+      "role": "heading",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Welcome, ",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "John Jacob Jingleheimer Schmidt",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "!",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Log out",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+  ],
+  "name": "example-header--logged-in-with-long-name-on-mobile",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;
+
+exports[`Example/Header LoggedInWithShortName smoke-test 1`] = `
+{
+  "checked": undefined,
+  "children": [
+    {
+      "checked": undefined,
+      "children": undefined,
+      "level": 1,
+      "name": "Acme",
+      "pressed": undefined,
+      "role": "heading",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Welcome, ",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Jo",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "!",
+      "pressed": undefined,
+      "role": "text",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Log out",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+  ],
+  "name": "example-header--logged-in-with-short-name",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;
+
+exports[`Example/Header LoggedOut smoke-test 1`] = `
+{
+  "checked": undefined,
+  "children": [
+    {
+      "checked": undefined,
+      "children": undefined,
+      "level": 1,
+      "name": "Acme",
+      "pressed": undefined,
+      "role": "heading",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Log in",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+    {
+      "checked": undefined,
+      "children": undefined,
+      "name": "Sign up",
+      "pressed": undefined,
+      "role": "button",
+      "value": undefined,
+    },
+  ],
+  "name": "example-header--logged-out",
+  "pressed": undefined,
+  "role": "WebArea",
+  "value": undefined,
+}
+`;

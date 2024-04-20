@@ -17,16 +17,16 @@ Let's learn about stories by commenting out and re-writing sections of this file
 */
 
 export default {
-  title: "Example/Button",
+  // title: "Example/Button",
   component: Button,
-  parameters: {
-    layout: "centered",
-  },
-  tags: ["autodocs"],
-  argTypes: {
-    backgroundColor: { control: "color" },
-  },
-  args: { onClick: fn() },
+  // parameters: {
+  //   layout: "centered",
+  // },
+  // tags: ["autodocs"],
+  // argTypes: {
+  //   backgroundColor: { control: "color" },
+  // },
+  // args: { onClick: fn() },
 };
 
 export const Primary = {
@@ -36,11 +36,11 @@ export const Primary = {
   },
 };
 
-export const Secondary = {
-  args: {
-    label: "Button",
-  },
-};
+// export const Secondary = {
+//   args: {
+//     label: "Button",
+//   },
+// };
 
 export const Large = {
   args: {
@@ -49,12 +49,12 @@ export const Large = {
   },
 };
 
-export const Small = {
-  args: {
-    size: "small",
-    label: "Button",
-  },
-};
+// export const Small = {
+//   args: {
+//     size: "small",
+//     label: "Button",
+//   },
+// };
 
 /*
 Lesson 2: Compose stories
@@ -63,9 +63,9 @@ Stories (using SCF object syntax) can compose args from other stories.
 Uncomment (or re-write) the story below to make a new story from others.
 */
 
-// export const LargePrimary = {
-//   args: {
-//     ...Large.args,
-//     ...Primary.args,
-//   },
-// };
+export const LargePrimary = {
+  args: {
+    ...Large.args,
+    ...Primary.args,
+  },
+};

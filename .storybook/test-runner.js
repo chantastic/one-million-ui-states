@@ -23,6 +23,8 @@ module.exports = {
         html: true,
       },
     });
+    const accessibilityTree = await page.accessibility.snapshot();
+    expect(accessibilityTree).toMatchSnapshot();
   },
 };
 

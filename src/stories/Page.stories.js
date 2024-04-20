@@ -1,5 +1,5 @@
 import { within, userEvent, expect } from "@storybook/test";
-// import { viewportModes } from "../../.storybook/modes";
+import { viewportModes } from "../../.storybook/modes";
 
 import { Page } from "./Page";
 
@@ -9,12 +9,12 @@ export default {
   parameters: {
     layout: "fullscreen",
     // LESSON 13
-    // chromatic: {
-    //   modes: {
-    //     mobile: viewportModes["small"],
-    //     desktop: viewportModes["large"],
-    //   },
-    // },
+    chromatic: {
+      modes: {
+        mobile: viewportModes["small"],
+        desktop: viewportModes["large"],
+      },
+    },
   },
 };
 

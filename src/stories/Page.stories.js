@@ -1,4 +1,5 @@
 import { within, userEvent, expect } from "@storybook/test";
+import { viewportModes } from "../.storybook/modes";
 
 import { Page } from "./Page";
 
@@ -7,6 +8,12 @@ export default {
   component: Page,
   parameters: {
     layout: "fullscreen",
+    chromatic: {
+      modes: {
+        mobile: viewportModes["small"],
+        desktop: viewportModes["large"],
+      },
+    },
   },
 };
 

@@ -33,3 +33,14 @@
 - [Lesson 12: CI/CD with GitHub actions](./.github/workflows/chromatic.yml)
   - Add secret
   - Add GitHub workflow file
+- [Lesson 13: Snapshot multiple viewports in Chromatic with modes](./.storybook/modes.js)
+  - Import viewportModes into Page
+
+```js
+    chromatic: {
+      modes: {
+        mobile: viewportModes["small"],
+        desktop: viewportModes["large"],
+      },
+    },
+```

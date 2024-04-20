@@ -1,5 +1,5 @@
 import { within, userEvent, expect } from "@storybook/test";
-import { viewportModes } from "../.././storybook/modes";
+import { viewportModes } from "../../.storybook/modes";
 
 import { Page } from "./Page";
 

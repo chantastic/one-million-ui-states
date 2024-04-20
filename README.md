@@ -30,3 +30,6 @@
   - `npx chromatic --project-token=<project_token>`
   - Go to project
   - Explore UI features
+- [Lesson 12: CI/CD with GitHub actions](./.github/workflows/chromatic.yml)
+  - Add secret
+  - Add GitHub workflow file

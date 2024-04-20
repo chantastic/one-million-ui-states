@@ -11,7 +11,9 @@
   - `npm install @storybook/test-runner --save-dev`
   - `npx playwright install`
   - `npx exec test-storybook`
-- [Lesson 9: Add accessibility tests with ax-eplaywright](.storybook/test-runner.js#L2)
+- [Lesson 9: Add accessibility tests with ax-eplaywright](./.storybook/test-runner.js#L2)
   - `npm install axe-playwright`
   - [fix button.css](./src/stories/button.css#L12)
   - [fix page anchor](./src/stories/page.css#L27)
+
+[Lesson 10: Capture snapshots of the accessibility tree (probably the only acceptable use of Jest Snapshots)](./.storybook/test-runner.js#L32)

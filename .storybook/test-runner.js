@@ -27,7 +27,13 @@ module.exports = {
 };
 
 /*
- Lesson 12: Capture snapshots of the accessibility tree (probably the only acceptable use of Jest Snapshots)
+Lesson 10: Capture snapshots of the accessibility tree (probably the only acceptable use of Jest Snapshots)
+
+With the Storybook test-runner setup, we can intgrate different testing side-effects.
+Now we can serialize the accessibility tree and compare snapshots against future changes.
+
+Move the code below into the `postVisit` function and re-run tests.
 */
+
 // const accessibilityTree = await page.accessibility.snapshot();
 // expect(accessibilityTree).toMatchSnapshot();
